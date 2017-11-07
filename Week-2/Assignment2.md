@@ -2,7 +2,7 @@
 	- $540,088
 
 	sales.show(view='BoxWhisker Plot', x='zipcode', y='price')
-	## max price is avg zip code - '98039'
+	// max price is avg zip code - '98039'
 	high = sales[sales['zipcode'=='98039']]
 	high['price'].mean() 
 	=540088.1419053345
